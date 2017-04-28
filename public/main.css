@@ -1,0 +1,51 @@
+body {
+  background-color: #b2ebf2;
+}
+
+h1 {
+  font-size: 400%;
+}
+
+#heading {
+  font-family: 'Antic Slab', serif;
+  text-align: center;
+}
+
+#heading p {
+  font-size: 200%;
+}
+
+p {
+  font-family: 'Roboto', sans-serif;
+}
+
+a {
+  font-family: 'Averia Serif Libre', cursive;
+  font-size: 150%;
+  text-decoration: none;
+  text-align: center;
+  color: #4db6ac;
+  text-transform: capitalize;
+}
+
+.container {
+  
+}
+
+ul {
+  list-style-type: none;
+  margin: auto;
+  width: 50%;
+  text-align: center;
+  /* padding-left: 450px; */
+  /* padding-right: 450px; */
+}
+
+li {
+  border: solid, 2px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  background-color: white;
+  padding: 10px;
+  text-align: justify;
+}
