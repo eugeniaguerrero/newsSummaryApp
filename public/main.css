@@ -3,6 +3,7 @@ body {
 }
 
 h1 {
+  padding-top: 0px;
   font-size: 400%;
 }
 
@@ -17,14 +18,21 @@ h1 {
   text-align: center;
 }
 
+#logo {
+  padding-bottom: 0px;
+  height: 5%;
+  width: 5%;
+}
+
 p {
-  font-family: 'Averia Serif Libre', cursive;
+  font-family: 'Amiri', serif;
   text-align: justify;
+  font-size: 150%;
 }
 
 a {
   font-family: 'Averia Serif Libre', cursive;
-  font-size: 150%;
+  font-size: 200%;
   text-decoration: none;
   text-align: center;
   color: #4db6ac;
