@@ -4,7 +4,7 @@
   }
 
   SingleStoryView.prototype.viewStory = function () {
-    var HtmlString = "<div><h1>" + this.singleStory.webTitle + "</h1></div><br><div><img src=" + this.singleStory.fields.thumbnail + "></div>" + this.singleStory.blocks.body["0"].bodyHtml;
+    var HtmlString = "<div id='full-article'><div><h1>" + this.singleStory.webTitle + "</h1></div><div><img src=" + this.singleStory.fields.thumbnail + "></div>" + this.singleStory.blocks.body["0"].bodyHtml + "</div>";
     return HtmlString;
   };
 
