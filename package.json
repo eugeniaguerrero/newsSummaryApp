@@ -6,8 +6,16 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Simba14/news-application.git"
+  },
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Simba14/news-application/issues"
+  },
+  "homepage": "https://github.com/Simba14/news-application#readme",
   "dependencies": {
     "http-server": "^0.9.0"
   }
