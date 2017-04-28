@@ -13,10 +13,13 @@ h1 {
 
 #heading p {
   font-size: 200%;
+  font-family: 'Antic Slab', serif;
+  text-align: center;
 }
 
 p {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Averia Serif Libre', cursive;
+  text-align: justify;
 }
 
 a {
@@ -29,7 +32,7 @@ a {
 }
 
 .container {
-  
+
 }
 
 ul {
@@ -37,15 +40,22 @@ ul {
   margin: auto;
   width: 50%;
   text-align: center;
-  /* padding-left: 450px; */
-  /* padding-right: 450px; */
 }
 
 li {
   border: solid, 2px;
+  border-radius: 15px;
   margin-bottom: 20px;
   margin-top: 20px;
   background-color: white;
-  padding: 10px;
-  text-align: justify;
+  padding: 20px;
+}
+
+img {
+  margin: auto;
+  width: 65%;
+  display: block;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 25px;
 }
