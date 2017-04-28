@@ -4,11 +4,11 @@
   };
 
 View.prototype.viewStories = function() {
-  var headlineText = [];
+  var storyText = [];
   for (i = 0; i < this.stories.length; i++) {
-    headlineText.push('<a href=#' + i + ">" + this.stories[i].webTitle)
+    storyText.push('<a href=#' + i + ">" + this.stories[i].webTitle + "</a></div><div><img src=" + this.stories[i].fields.thumbnail)
   };
-  return "<ul><li><div>" + headlineText.join("</a></div></li><li><div>") + "</a></div></li></ul>"
+  return "<ul><li><div>" + storyText.join("></div></li><li><div>") + "</a></div></li></ul>"
 };
   exports.View = View;
 })(this);

@@ -1,2 +1,2 @@
 newsController = new NewsController();
-newsController.renderHeadlines();
+newsController.renderStories();
