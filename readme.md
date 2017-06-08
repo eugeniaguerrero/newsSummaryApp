@@ -2,12 +2,8 @@
 A single page application built in JavaScript, CSS, and HTML.
 It uses the Guardian API to fetch news stories and the Aylien API to generate the summary for each story.
 ![](./images/Header.jpg)
----
-![](./images/NewsSummary.mp4)
 
-### Mock-ups
-![](main-page.png)
-![](article_page.png)
+Watch a demo [here](https://vimeo.com//220817319)
 
 ### User Stories
 ```
